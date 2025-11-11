@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package kk;
+
+service Inference {
+  rpc AnalyzeSentiment (TextRequest) returns (SentimentReply) {}
+  rpc ClassifyImage (ImageRequest) returns (ClassReply) {}
+}
+
+message TextRequest { string text = 1; }
+message SentimentReply { int32 score = 1; }
+
+message ImageRequest { bytes image = 1; }
+message ClassReply { string label = 1; float confidence = 2; }
