@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="mt-4 rounded-2xl bg-white/6 border border-white/10 px-4 py-3 text-[15px] leading-relaxed">
             <span className="font-semibold">
               🚀 Hiring an AI/ML dev who delivers calm, clean, and production-ready models?  
-              You’ve just found her. <a href="/live" className="underline hover:text-neonCyan">Peek the Live Demos</a> — results speak faster than résumés. ⚡
+              You’ve just found her. <a href="/live" className="underline hover:text-neonCyan">Peek the Live Demos</a> — results speak faster than resumes.
             </span>
           </div>
 
