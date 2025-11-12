@@ -14,3 +14,5 @@ dist/
 # Python virtual environment and cache
 backend/.venv/
 backend/__pycache__/
+
+node_modules/
