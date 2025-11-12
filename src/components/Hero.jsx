@@ -29,12 +29,13 @@ export default function Hero() {
           <p className="mt-3 text-xl font-semibold text-softAmber">AI/ML Developer</p>
 
           {/* Recruiter banner — crisp, non-AI-y, merged voice */}
-          <div className="mt-4 rounded-2xl bg-white/6 border border-white/10 px-4 py-3 text-[15px]">
+          <div className="mt-4 rounded-2xl bg-white/6 border border-white/10 px-4 py-3 text-[15px] leading-relaxed">
             <span className="font-semibold">
-              I wire models to product—quick, stable, measurable.
-            </span>{" "}
-            The kind of AI that keeps dashboards green and weekends free.
+              🚀 Hiring an AI/ML dev who delivers calm, clean, and production-ready models?  
+              You’ve just found her. <a href="/live" className="underline hover:text-neonCyan">Peek the Live Demos</a> — results speak faster than résumés. ⚡
+            </span>
           </div>
+
 
           <p className="mt-4 text-lg text-white/90 max-w-xl">
             From CV & NLP to agentic workflows, I ship <span className="font-semibold">low-latency,
