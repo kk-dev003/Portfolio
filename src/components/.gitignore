@@ -1,1 +1,16 @@
 
+# Node.js
+node_modules/
+
+# Build output
+dist/
+
+# Vercel deployment
+.vercel/
+
+# Environment files
+.env*
+
+# Python virtual environment and cache
+backend/.venv/
+backend/__pycache__/
